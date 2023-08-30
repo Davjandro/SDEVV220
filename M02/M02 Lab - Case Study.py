@@ -1,10 +1,8 @@
 Last_Name = input("Enter your last name: ")
 if Last_Name == "ZZZ":
+          print("Processing stopped")
           exit()
-
-if Last_Name == int:
-       exit()
-        
+ 
 #This checks the program for special characters
 import string 
 x = Last_Name
@@ -12,7 +10,6 @@ invalidcharacters= set(string.punctuation)
 if any(char in invalidcharacters for char in x):
     print("ERROR ! NO SPECIAL CHARACTERS.")
     exit()
-
 
 First_Name = input("Enter your first name: ")
 
