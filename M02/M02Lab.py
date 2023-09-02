@@ -2,7 +2,7 @@ Last_Name = input("Enter your last name: ")
 if Last_Name == "ZZZ":
           print("Processing stopped")
           exit()
- 
+
 #This checks the program for special characters
 import string 
 x = Last_Name
@@ -32,4 +32,3 @@ else: print("You do not meet the necessary requirements to make the Deans list."
 if Student_GPA >= 3.25: 
         print ("Congratulations! You've made the Honor Roll")
 else: print("You do not meet the necessary requirements to make the Honor Roll.")
-
