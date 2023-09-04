@@ -1,3 +1,10 @@
+'''
+        Program Name: M02 Lab Case Study
+                   Author Name: David Tellez
+Last Date Modified: 09/02/2023
+
+This program prompts the user to enter last name,first name and GPA. The program then tests if the student makes the deans list and/or honor roll.
+'''
 Last_Name = input("Enter your last name: ")
 if Last_Name == "ZZZ":
           print("Processing stopped")
